@@ -1,0 +1,1 @@
+{"name":"Local: print_size_singly_linked_list","url":"e:\\Codeforces Problems\\print_size_singly_linked_list.cpp","tests":[{"id":1741661562101,"input":"2 1 5 3 4 8 9 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codeforces Problems\\print_size_singly_linked_list.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: queries_singly_linked_list","url":"e:\\Codeforces Problems\\queries_singly_linked_list.cpp","tests":[{"id":1741666518933,"input":"10 20 30 -1\n7\n1 40\n5 50\n4 50\n0 100\n7 40\n1 110\n7 40\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codeforces Problems\\queries_singly_linked_list.cpp","group":"local","local":true}

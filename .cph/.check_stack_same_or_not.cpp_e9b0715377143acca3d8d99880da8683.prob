@@ -1,0 +1,1 @@
+{"name":"Local: check_stack_same_or_not","url":"e:\\Codeforces Problems\\check_stack_same_or_not.cpp","tests":[{"id":1741753012008,"input":"5\n10 20 30 40 50\n4\n10 20 30 40 \n\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codeforces Problems\\check_stack_same_or_not.cpp","group":"local","local":true}
