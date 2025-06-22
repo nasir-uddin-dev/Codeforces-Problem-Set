@@ -11,14 +11,13 @@ int main()
 
     while (t--)
     {
-        int run, over;
-        cin >> run >> over;
+        int start_time;
+        cin >> start_time;
 
-        if ((over * 6) * 6 >= run)
-            cout << "YES" << endl;
-
+        if (start_time > 7)
+            cout << "No" << endl;
         else
-            cout << "NO" << endl;
+            cout << "Yes" << endl;
     }
     return 0;
 }
