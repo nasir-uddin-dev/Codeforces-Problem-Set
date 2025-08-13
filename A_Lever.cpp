@@ -1,4 +1,4 @@
-//https://codeforces.com/contest/2131/problem/A
+// https://codeforces.com/contest/2131/problem/A
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -18,26 +18,11 @@ int main()
         for (auto &x : b)
             cin >> x;
 
-        int cnt1, cnt2;
-        int mx;
+        int more = 0;
         for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                if (a[i] > b[j] || a[i] < b[j])
-                {
-                    a[i]--;
-                    a[i]++;
-                }
-                else if(a[i] == b[j])
-                {
-                    a[i] = 1;
-                }
-            }
-            mx = min(a[i], a[i]);
-        }
+            more += max(0, a[i] - b[i]);
 
-        cout << mx << endl;
+        cout << more + 1 << endl;
     }
     return 0;
 }
